@@ -1,0 +1,272 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+    <Style id="z1">
+        <IconStyle>
+        <Icon>
+        <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+        </Icon>
+        </IconStyle>
+    </Style>
+    
+<Placemark>
+    <name>Home</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	-118.28517323153733,34.030708842995864		
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>USC Lawn</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	-118.28527792518429,34.02695268409571 		
+		
+        </coordinates>
+    </Point>
+</Placemark>
+    
+<Placemark>
+    <name>Trader Joe's</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	 -118.28468101586195, 34.02614679285783
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>BoFA USC</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	-118.28412806527946, 34.024980456260565		
+
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>USC Marshall</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	 -118.28542375665306, 34.0188810038387			
+	
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>USC Cinema. Arts</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	-118.28651195557973, 34.023636647683084			
+		
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>USC Annenberg</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	 -118.28613059452506, 34.02217091637391			
+        </coordinates>
+    </Point>
+</Placemark>
+
+<Placemark>
+    <name>Cromwell Field</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	 -118.28789253111098,  34.02215811478172		
+		
+        </coordinates>
+    </Point>
+</Placemark>
+
+
+<Placemark>
+    <name>Thorton School</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	-118.28549331734864,  34.02329551559096		
+		
+        </coordinates>
+    </Point>
+</Placemark>
+
+			
+<Placemark>
+    <name>Dedeaux Stadium</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>	-118.2895380885991, 34.0233844372443
+		
+        </coordinates>
+    </Point>
+</Placemark>
+
+
+<Placemark>
+    <name>USC Viterbi</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates> -118.28931278303689,	34.02073453255963	
+        </coordinates>
+    </Point>
+</Placemark>
+
+
+<Placemark>
+    <name>USC Dornsife</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>  -118.28555769036691, 34.02108133686649		
+	
+        </coordinates>
+    </Point>
+</Placemark>
+
+
+<Placemark>
+    <name>Lovine-Young Academy</name>
+    <styleUrl>#z1</styleUrl>
+    <Point>
+        <coordinates>  -118.28866236866935, 34.01903767982044			
+	
+        </coordinates>
+    </Point>
+</Placemark>
+
+<!-- POLYGONNNNNNN -->
+
+<Folder>
+
+<name>Polygon</name>
+
+<Placemark> 
+ <Polygon>   
+  <altitudeMode>relativeToGround</altitudeMode>
+  <outerBoundaryIs>  <LinearRing>
+  <coordinates>
+   -118.28542375665306,34.0188810038387,50. 
+   -118.28866236866935,34.01903767982044,50.
+   -118.28931278303689,34.02073453255963,50.
+  -118.2895380885991,34.0233844372443,50. 
+ -118.28517323153733,34.030708842995864,50
+  -118.28412806527946,34.024980456260565,50
+ -118.28542375665306,34.0188810038387,50
+   
+  </coordinates>
+ </LinearRing> </outerBoundaryIs> </Polygon>
+
+ 
+
+ <Style> 
+  <PolyStyle>  
+   <color>#a00000ff</color>
+  <outline>0</outline>
+  </PolyStyle> 
+ </Style>
+</Placemark>
+
+</Folder>
+
+
+
+<!-- LINEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+<Folder>
+
+
+<name>4 Nearest Neighbours</name>
+
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.28517323153733,34.030708842995864,0  -118.28527792518429,34.02695268409571,0</coordinates>
+      </LineString>
+      
+<Style> 
+  <LineStyle>  
+   <color>#FFF8FF2E
+
+</color>
+   <width>3</width>
+
+  </LineStyle> 
+</Style>
+    </Placemark>
+
+
+<!-- LINEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.28517323153733,34.030708842995864,0  -118.28468101586195,34.02614679285783,0</coordinates>
+      </LineString>
+      
+<Style> 
+  <LineStyle>  
+   <color>#FFF8FF2E
+
+</color>
+      <width>3</width>
+
+  </LineStyle> 
+</Style>
+    </Placemark>
+
+
+<!-- LINEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.28517323153733,34.030708842995864,0  -118.28412806527946,34.024980456260565,0</coordinates>
+      </LineString>
+      
+<Style> 
+  <LineStyle>  
+   <color>#FFF8FF2E
+
+</color>
+      <width>3</width>
+
+  </LineStyle> 
+</Style>
+    </Placemark>
+
+<!-- LINEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+    <Placemark>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-118.28517323153733,34.030708842995864,0  -118.28651195557973,34.023636647683084,0</coordinates>
+      </LineString>
+      
+<Style> 
+  <LineStyle>  
+   <color>#FFF8FF2E
+
+</color>
+      <width>3</width>
+
+  </LineStyle> 
+</Style>
+    </Placemark>
+
+<!-- LINEEEEEEEEEEEEEEEEEEEEEEEEEEEE -->
+
+</Folder>
+
+
+
+</Document>
+</kml>
